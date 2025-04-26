@@ -1,81 +1,80 @@
-/* ====== GLOBAL STYLES ====== */
 body {
-    margin: 0;
-    overflow-x: hidden;
-    font-family: 'Nunito', sans-serif;
-  }
-  .wrapper {
-    margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 122px;
-    max-width: 1200px;
-  }
-  
-  /* ====== HEADER AREA ====== */
-  .main-header {
-    width: 1046px;;
-    margin-top: 32px;
-    margin-left: 32px;
-    margin-right: 122px;
-    height: 64px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-container {
-    width: 252px;
-    height: 64px;
-    margin-right:135px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .logo-img {
-    width: 64px;
-    height: 64px;
-  }
-  
-  .logo-text {
-    font-size: 24px;
-    font-weight: 700;
-    color: #3E3F43;
-    margin-left:0;
-    letter-spacing: 6px;
-  }
-  
-  .nav-menu {
-    display: flex;
-    gap: 62px;
-  }
-  
-  .nav-link {
-    font-size: 30px;
-    font-weight: 400;
-    color: #612999;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .nav-link.active {
-    font-weight: 700;
-  }
-  .nav-link:hover {
-    color: #b38cd9;
-  }
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+.wrapper {
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 122px;
+  max-width: 1200px;
+}
+
+/* ====== HEADER AREA ====== */
+.main-header {
+  width: 1046px;;
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 122px;
+  height: 64px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  width: 252px;
+  height: 64px;
+  margin-right:135px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 64px;
+  height: 64px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3E3F43;
+  margin-left:0;
+  letter-spacing: 6px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 62px;
+}
+
+.nav-link {
+  font-size: 30px;
+  font-weight: 400;
+  color: #612999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: #b38cd9;
+}
 /* ====== HERO SECTION ====== */
 .hero-section {
-  margin-top: 32px;
-  position: relative;
-  width: 100%;     /* ✅ מבטיח שהתמונה ממלאת רק את רוחב המסמך */
-  overflow: hidden; /* ✅ מוסיף ביטחון — חותך גלישות פנימיות */
+margin-top: 32px;
+position: relative;
+width: 100%;     /* ✅ מבטיח שהתמונה ממלאת רק את רוחב המסמך */
+overflow: hidden; /* ✅ מוסיף ביטחון — חותך גלישות פנימיות */
 }
 .hero-image {
-  width: 100%;
-  height: auto; /* ✅ לא קובע גובה, התמונה מציגה את כולה */
-  display: block;
+width: 100%;
+height: auto; /* ✅ לא קובע גובה, התמונה מציגה את כולה */
+display: block;
 }
 
 
@@ -83,257 +82,339 @@ body {
 
 /* ====== TEXT ON HERO IMAGE ====== */
 .hero-text-container {
-  position: absolute;
-  top: 160px;
-  left: 32px;
-  width: 448px;
-  height: 230px;
+position: absolute;
+top: 160px;
+left: 32px;
+width: 448px;
+height: 230px;
 }
 
 .hero-title {
-  font-family: 'Nunito', sans-serif;
-  font-size: 96px;
-  font-weight: 800;
-  color: #612999;
-  margin: 0;
+font-family: 'Nunito', sans-serif;
+font-size: 96px;
+font-weight: 800;
+color: #612999;
+margin: 0;
 }
 
 .hero-subtext {
-  font-family: 'Nunito', sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: #000000;
-  margin-top: 16px;
-  line-height: 1.4;
+font-family: 'Nunito', sans-serif;
+font-size: 24px;
+font-weight: 600;
+color: #000000;
+margin-top: 16px;
+line-height: 1.4;
 }
 /* ====== ABOUT SECTION ====== */
 .about-section {
-  width: 1136px;
-  margin-top: 32px;
-  margin-left: 32px;
+width: 1136px;
+margin-top: 32px;
+margin-left: 32px;
 }
 
 .about-section h2 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  font-weight: 500;
-  color: #612999;
-  height: 40px;
-  margin-bottom: 20px;
+font-family: 'Rubik', sans-serif;
+font-size: 40px;
+font-weight: 500;
+color: #612999;
+height: 40px;
+margin-bottom: 20px;
 }
 
 .about-text {
-  font-family: 'Rubik', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 141%;
-  color: #000000;
-  text-align: justify;
+font-family: 'Rubik', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 141%;
+color: #000000;
+text-align: justify;
 }
 /* ====== PRODUCTS AREA ====== */
 .products-area {
-  width: 784px;
-  margin-top: 32px;
-  margin-left: 32px;
+width: 784px;
+margin-top: 32px;
+margin-left: 32px;
 }
 
 /* כותרת Products */
 .products-title {
-  font-family: 'Rubik', sans-serif;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 40px;
-  color: #612999;
-  margin-bottom: 24px;
+font-family: 'Rubik', sans-serif;
+font-size: 40px;
+font-weight: 500;
+line-height: 40px;
+color: #612999;
+margin-bottom: 24px;
 }
 .cards-container {
-  width: 784px;
-  margin-left: 32px;
-  margin-top: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
+width: 784px;
+margin-left: 32px;
+margin-top: 32px;
+display: flex;
+flex-wrap: wrap;
+gap: 32px;
 }
 .card {
-  width: 376px;
-  height: 496px;
-  background-color: #EFECFF;
-  border-radius: 38px;
-  box-shadow: 0 6px 40px rgba(57, 132, 187, 0.05);
-  overflow: hidden;
-  position: relative;
+width: 376px;
+height: 496px;
+background-color: #EFECFF;
+border-radius: 38px;
+box-shadow: 0 6px 40px rgba(57, 132, 187, 0.05);
+overflow: hidden;
+position: relative;
 }
 .card-image-container {
-  width: 100%;
-  height: 276px;
-  overflow: hidden;
-  border-radius: 38px;
+width: 100%;
+height: 276px;
+overflow: hidden;
+border-radius: 38px;
 }
 .card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
 }
 .heart-wrapper {
-  position: absolute;
-  top: 35px;      /* מרחק מהחלק העליון של התמונה */
-  right: 42px;    /* מרחק מהצד הימני של התמונה */
-  width: 47px;
-  height: 47px;
-  cursor: pointer; /* סמן של יד */
+position: absolute;
+top: 35px;      /* מרחק מהחלק העליון של התמונה */
+right: 42px;    /* מרחק מהצד הימני של התמונה */
+width: 47px;
+height: 47px;
+cursor: pointer; /* סמן של יד */
 }
 
 .heart-bg {
-  width: 47px;
-  height: 47px;
-  position: absolute;
-  top: 0;
-  left: 0;
+width: 47px;
+height: 47px;
+position: absolute;
+top: 0;
+left: 0;
 }
 
 .heart-icon {
-  width: 23px;
-  height: 20px;
-  position: absolute;
-  top: 13.5px;   /* מיקום אנכי בתוך הרקע */
-  left: 12px;    /* מיקום אופקי בתוך הרקע */
+width: 23px;
+height: 20px;
+position: absolute;
+top: 13.5px;   /* מיקום אנכי בתוך הרקע */
+left: 12px;    /* מיקום אופקי בתוך הרקע */
 }
 .card-title {
-  font-family: 'Abel', sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #000000;
-  margin-top: 21px;
-  margin-left: 32px;
-  margin-right: 123px;
-  line-height: 38px;
-  margin-bottom: 0;
-  text-align: left;
+font-family: 'Abel', sans-serif;
+font-size: 30px;
+font-weight: 400;
+color: #000000;
+margin-top: 21px;
+margin-left: 32px;
+margin-right: 123px;
+line-height: 38px;
+margin-bottom: 0;
+text-align: left;
 }
 .card-description {
-  font-family: 'Abel', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #333333;
-  line-height: 100%;
-  margin-top:7px; 
-  margin-left: 32px;
-  margin-right: 29px;
-  margin-bottom: 58px;
-  
+font-family: 'Abel', sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: #333333;
+line-height: 100%;
+margin-top:7px; 
+margin-left: 32px;
+margin-right: 29px;
+margin-bottom: 58px;
+
 }
 .card {
-  position: relative; /* חובה! כדי ש־absolute יתייחס לכאן */
+position: relative; /* חובה! כדי ש־absolute יתייחס לכאן */
 }
 
 .card-price {
-  font-family: 'Abel', sans-serif;
-  font-size: 35px;
-  font-weight: 400;
-  color: #612999;
-  position: absolute;
-  bottom: 36px;      /* מרחק מהתחתית */
-  left: 32px;        /* מרחק מצד שמאל */
-  margin: 0;
-  line-height: 100%;
+font-family: 'Abel', sans-serif;
+font-size: 35px;
+font-weight: 400;
+color: #612999;
+position: absolute;
+bottom: 36px;      /* מרחק מהתחתית */
+left: 32px;        /* מרחק מצד שמאל */
+margin: 0;
+line-height: 100%;
 }
 .cart-wrapper {
-  position: absolute;
-  bottom: 36px;
-  right: 32px;
-  width: 63px;
-  height: 63px;
-  margin-top: 5px;
-  cursor: pointer; /* 🖐️ מוסיף את סמן היד */
+position: absolute;
+bottom: 36px;
+right: 32px;
+width: 63px;
+height: 63px;
+margin-top: 5px;
+cursor: pointer; /* 🖐️ מוסיף את סמן היד */
 }
 .cart-bg {
-  width: 63px;
-  height: 63px;
-  position: absolute;
-  top: 0;
-  left: 0;
+width: 63px;
+height: 63px;
+position: absolute;
+top: 0;
+left: 0;
 }
 
 .cart-icon {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 19px;
-  left: 20px;
+width: 24px;
+height: 24px;
+position: absolute;
+top: 19px;
+left: 20px;
 }
 /* ====== FOOTER AREA ====== */
 /* ====== FOOTER AREA ====== */
 .footer {
-  width: 100%;
-  background-color: #EFECFF;
-  margin-top: 246px;
-  padding-top: 32px;
-  padding-left: 32px; /* ✅ נשמר מרחק של 32 פיקסלים מצד שמאל */
-  padding-right: 32px; /* נוסיף גם רווח מצד ימין לשמירה */
-  display: flex;
+width: 100%;
+background-color: #EFECFF;
+margin-top: 246px;
+padding-top: 32px;
+padding-left: 32px; /* ✅ נשמר מרחק של 32 פיקסלים מצד שמאל */
+padding-right: 32px; /* נוסיף גם רווח מצד ימין לשמירה */
+display: flex;
 }
 
 
 .footer-container {
-  display: flex;
-  gap: 150px; /* המרחק בין WHO WE ARE לבין FOLLOW US */
+display: flex;
+gap: 150px; /* המרחק בין WHO WE ARE לבין FOLLOW US */
 }
 
 
 .footer-group {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .footer-title {
-  font-family: 'Nunito', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #333333;
-  text-transform: uppercase;
-  margin: 0;
+font-family: 'Nunito', sans-serif;
+font-size: 18px;
+font-weight: 700;
+color: #333333;
+text-transform: uppercase;
+margin: 0;
 }
 
 .footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 16px 0 0 0; /* מרחק מהכותרת */
-  display: flex;
-  flex-direction: column;
-  gap: 8px; /* רווח של 8 פיקסלים בין הלינקים */
+list-style: none;
+padding: 0;
+margin: 16px 0 0 0; /* מרחק מהכותרת */
+display: flex;
+flex-direction: column;
+gap: 8px; /* רווח של 8 פיקסלים בין הלינקים */
 }
 
 .footer-links a {
-  font-family: 'Nunito', sans-serif;
-  font-size: 16px;
-  color: #333333;
-  text-decoration: none;
+font-family: 'Nunito', sans-serif;
+font-size: 16px;
+color: #333333;
+text-decoration: none;
 }
 
 .footer-links a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 .footer-icons {
-  display: flex;
-  gap: 24px; /* רווח של 24 פיקסלים בין האייקונים */
-  margin-top: 24px; /* מרחק מהקישורים */
+display: flex;
+gap: 24px; /* רווח של 24 פיקסלים בין האייקונים */
+margin-top: 24px; /* מרחק מהקישורים */
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+width: 20px;
+height: 20px;
 }
 
 .footer-copy {
-  font-family: 'Nunito', sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  color: #333333;
-  margin-top: 16px; /* רווח מהאייקונים */
-  margin-bottom: 51px; /* מרחק מהקצה התחתון */
+font-family: 'Nunito', sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #333333;
+margin-top: 16px; /* רווח מהאייקונים */
+margin-bottom: 51px; /* מרחק מהקצה התחתון */
+} 
+.products-images-section {
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 116px;
 }
+
+.products-images-wrapper {
+  display: flex;
+  gap: 32px; /* רווח של 32px בין כל שתי תמונות */
+}
+
+.product-image {
+  width: 300px; /* רוחב 300 פיקסלים */
+  height: 300px; /* גובה 300 פיקסלים */
+  border: 4px solid #E6DBFE; /* גבול סגול */
+  box-sizing: border-box;
+}
+/* ====== PRODUCTS IMAGES SECTION ====== */
+.products-images-section {
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 116px;
+  display: flex;
+  gap: 32px; /* רווח של 32 פיקסלים בין התמונות */
+}
+
+.products-images-wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.product-image {
+  height: 300px;
+  object-fit: cover;
+  border: 4px solid #E6DBFE;
+  border-radius: 4px;
+}
+
+/* ====== LIST OF DRINKS SECTION ====== */
+.list-drinks-section {
+  margin-top: 32px; /* 32 פיקסלים מתחת לאיזור התמונות */
+  margin-left: 32px; /* 32 פיקסלים מהשוליים השמאליים */
+}
+
+.list-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #612999;
+  margin-bottom: 32px; /* מרחק של 32 פיקסלים בין הכותרת לאלמנט הראשון */
+}
+
+.drink-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px; /* 16 פיקסלים בין כל פריט לפריט */
+}
+
+.circle {
+  width: 82px;
+  height: 82px;
+  background-color: #612999;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px; /* רווח בין האייקון לטקסט */
+}
+
+.icon {
+  width: 29px;
+  height: 42px;
+}
+
+.drink-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+
 
 
 
