@@ -217,10 +217,11 @@ body {
   font-weight: 400;
   color: #333333;
   line-height: 100%;
-  margin-top:7; 
+  margin-top:7px; 
   margin-left: 32px;
   margin-right: 29px;
   margin-bottom: 58px;
+  
 }
 .card {
   position: relative; /* חובה! כדי ש־absolute יתייחס לכאן */
@@ -261,6 +262,84 @@ body {
   top: 19px;
   left: 20px;
 }
+/* ====== FOOTER AREA ====== */
+/* ====== FOOTER AREA ====== */
+.footer {
+  width: 100%;
+  background-color: #EFECFF;
+  margin-top: 246px;
+  padding-top: 32px;
+  padding-left: 32px; /* ✅ נשמר מרחק של 32 פיקסלים מצד שמאל */
+  padding-right: 32px; /* נוסיף גם רווח מצד ימין לשמירה */
+  display: flex;
+}
+
+
+.footer-container {
+  display: flex;
+  gap: 150px; /* המרחק בין WHO WE ARE לבין FOLLOW US */
+}
+
+
+.footer-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0; /* מרחק מהכותרת */
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* רווח של 8 פיקסלים בין הלינקים */
+}
+
+.footer-links a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 24px; /* רווח של 24 פיקסלים בין האייקונים */
+  margin-top: 24px; /* מרחק מהקישורים */
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-copy {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 16px; /* רווח מהאייקונים */
+  margin-bottom: 51px; /* מרחק מהקצה התחתון */
+}
+
+
+
+
+
+
 
 
 
