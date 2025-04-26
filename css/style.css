@@ -103,7 +103,9 @@ font-size: 24px;
 font-weight: 600;
 color: #000000;
 margin-top: 16px;
-line-height: 1.4;
+margin-bottom:0;
+padding:0;
+line-height: 24px;
 }
 /* ====== ABOUT SECTION ====== */
 .about-section {
@@ -412,6 +414,27 @@ margin-bottom: 51px; /* מרחק מהקצה התחתון */
   font-size: 24px;
   font-weight: 400;
   color: black;
+}
+/* ====== YOUR CHOICE SECTION ====== */
+/* ====== YOUR CHOICE SECTION ====== */
+.your-choice-section {
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.choice-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #612999;
+  margin-bottom: 32px;
+}
+
+.choice-image {
+  width: 1136px;
+  height: 503px;
+  display: block;
 }
 
 
