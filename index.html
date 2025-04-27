@@ -10,57 +10,67 @@
 </head>
 <body>
 
-  <header class="main-header">
-    <a href="index.html" class="logo-container">
-      <img src="images/logo.png" alt="GLOWUP logo" class="logo-img">
-      <span class="logo-text">GLOWUP</span>
-    </a>
-    <nav class="nav-menu">
-      <a href="index.html" class="nav-link active">Home</a>
-      <a href="ourproducts.html" class="nav-link">Our products</a>
-      <a href="#" class="nav-link">About</a>
-      <a href="#" class="nav-link contact-link">Contact</a>
-    </nav>
-    
-  </header>
+  <!-- HEADER -->
+  <main class="wrapper">
+    <header>
+      <a href="index.html" class="logo-container">
+        <img src="images/logo.png" alt="GLOWUP logo" class="logo-img">
+        <span class="logo-text">GLOWUP</span>
+      </a>
+      <nav>
+        <ul>
+          <li class="curr-page"><a href="index.html">Home</a></li>
+          <li><a href="ourproducts.html">Our products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>      
+    </header>
+  </main>
 
+  <!-- HERO IMAGE - מחוץ ל-wrapper -->
   <section class="hero-section">
     <img src="images/area2.png" alt="Natural Face Products" class="hero-image">
   </section>
 
-  <div class="hero-text-container">
-    <h1 class="hero-title">Glow!</h1>
-    <p class="hero-subtext">
-      Discover our natural skincare essentials.<br>
-      Enriched with botanicals for soft and radiant skin.
-    </p>
-  </div>
+  <!-- טקסט ותיאור מתחת לתמונה -->
+  <main class="wrapper">
+    <section class="hero-text-container">
+      <h1 class="hero-title">Glow!</h1>
+      <p class="hero-subtext">
+        Discover our natural skincare essentials.<br>
+        Enriched with botanicals for soft and radiant skin.
+      </p>
+    </section>
 
-  <section class="about-section">
-    <h2>About</h2>
-    <div class="about-text">
-      <p>We formulate our skincare with plant-based extracts, free from parabens, sulfates, and harsh chemicals. Our goal is to protect your skin while respecting nature’s rhythm and purity.</p>
-      <p>Every product is packaged using eco-friendly materials, from recyclable containers to compostable labels. Sustainability is part of everything we do, from lab to shelf.</p>
-      <p>Our products are designed to match your skin’s unique needs, offering personalized routines for glow, balance, and comfort. You’ll feel the difference from the very first touch.</p>
-    </div>
-  </section>
+    <section class="about-section">
+      <h2>About</h2>
+      <section class="about-text">
+        <p>We formulate our skincare with plant-based extracts, free from parabens, sulfates, and harsh chemicals. Our goal is to protect your skin while respecting nature’s rhythm and purity.</p>
+        <p>Every product is packaged using eco-friendly materials, from recyclable containers to compostable labels. Sustainability is part of everything we do, from lab to shelf.</p>
+        <p>Our products are designed to match your skin’s unique needs, offering personalized routines for glow, balance, and comfort. You’ll feel the difference from the very first touch.</p>
+      </section>
+    </section>
+  </main>
 
+  <!-- PRODUCTS AREA - מחוץ ל-wrapper -->
+   <section class="wrapper">
   <section class="products-area">
     <h2 class="products-title">Popular Products</h2>
   </section>
+</section>
 
-  <div class="cards-container">
-
+  <!-- CARDS AREA -->
+  <section class="cards-container">
     <!-- Card 1 -->
-    <div class="card">
-      <div class="card-image-container">
+    <article class="card">
+      <figure class="card-image-container">
         <img src="images/imag1.png" alt="Strawberry Drink" class="card-image">
-        <div class="heart-wrapper">
+        <section class="heart-wrapper">
           <img src="images/Ellipseheart.png" alt="" class="heart-bg">
           <img src="images/heart.png" alt="Favorite" class="heart-icon">
-        </div>
-      </div>
-
+        </section>
+      </figure>
       <h3 class="card-title">Daily Glow Cream</h3>
       <p class="card-description">
         Light daily cream for healthy soft skin.<br>
@@ -71,18 +81,17 @@
         <img src="images/Ellipsecart.png" alt="" class="cart-bg">
         <img src="images/shopping-basket.png" alt="Cart" class="cart-icon">
       </a>
-    </div>
+    </article>
 
     <!-- Card 2 -->
-    <div class="card">
-      <div class="card-image-container">
+    <article class="card">
+      <figure class="card-image-container">
         <img src="images/imag2.png" alt="Berry Boost Cream" class="card-image">
         <div class="heart-wrapper">
           <img src="images/Ellipseheart.png" alt="" class="heart-bg">
           <img src="images/heart.png" alt="Favorite" class="heart-icon">
         </div>
-      </div>
-
+      </figure>
       <h3 class="card-title">Berry Boost Cream</h3>
       <p class="card-description">
         Natural berry blend for deep hydration.<br>
@@ -93,18 +102,17 @@
         <img src="images/Ellipsecart.png" alt="" class="cart-bg">
         <img src="images/shopping-basket.png" alt="Cart" class="cart-icon">
       </a>
-    </div>
+    </article>
 
     <!-- Card 3 -->
-    <div class="card">
-      <div class="card-image-container">
+    <article class="card">
+      <figure class="card-image-container">
         <img src="images/imag3.png" alt="Glow Facial Mask" class="card-image">
         <div class="heart-wrapper">
           <img src="images/Ellipseheart.png" alt="" class="heart-bg">
           <img src="images/heart.png" alt="Favorite" class="heart-icon">
         </div>
-      </div>
-
+      </figure>
       <h3 class="card-title">Glow Facial Mask</h3>
       <p class="card-description">
         Pure aloe vera mask for smooth skin.<br>
@@ -115,18 +123,17 @@
         <img src="images/Ellipsecart.png" alt="" class="cart-bg">
         <img src="images/shopping-basket.png" alt="Cart" class="cart-icon">
       </a>
-    </div>
+    </article>
 
     <!-- Card 4 -->
-    <div class="card">
-      <div class="card-image-container">
+    <article class="card">
+      <figure class="card-image-container">
         <img src="images/imag4.png" alt="Coconut Glow Serum" class="card-image">
         <div class="heart-wrapper">
           <img src="images/Ellipseheart.png" alt="" class="heart-bg">
           <img src="images/heart.png" alt="Favorite" class="heart-icon">
         </div>
-      </div>
-
+      </figure>
       <h3 class="card-title">Coco Face Glow</h3>
       <p class="card-description">
         Light coconut serum for healthy skin.<br>
@@ -137,22 +144,20 @@
         <img src="images/Ellipsecart.png" alt="" class="cart-bg">
         <img src="images/shopping-basket.png" alt="Cart" class="cart-icon">
       </a>
-    </div>
+    </article>
+  </section>
 
-  </div>
-
-  <!-- Footer Section -->
+  <!-- FOOTER - מחוץ ל-wrapper -->
   <footer class="footer">
-    <div class="footer-container">
-      
-      <div class="footer-group">
+    <section class="footer-container">
+      <section class="footer-group">
         <h3 class="footer-title">WHO WE ARE</h3>
         <ul class="footer-links">
           <li><a href="#">About</a></li>
           <li><a href="#">Team</a></li>
           <li><a href="#">Work With Us</a></li>
         </ul>
-        <div class="footer-icons">
+        <section class="footer-icons">
           <a href="https://twitter.com" target="_blank">
             <img src="images/twitter.png" alt="Twitter" class="social-icon">
           </a>
@@ -162,22 +167,20 @@
           <a href="https://instagram.com" target="_blank">
             <img src="images/instagram.png" alt="Instagram" class="social-icon">
           </a>
-        </div>
+        </section>
         <p class="footer-copy">© 2025 GLOWUP</p>
-      </div>
+      </section>
 
-      <div class="footer-group">
+      <section class="footer-group">
         <h3 class="footer-title">FOLLOW US</h3>
         <ul class="footer-links">
           <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
           <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
           <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
         </ul>
-      </div>
-
-    </div>
+      </section>
+    </section>
   </footer>
 
 </body>
 </html>
-

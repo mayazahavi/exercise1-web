@@ -10,75 +10,85 @@
 </head>
 <body>
 
-  <header class="main-header">
-    <a href="index.html" class="logo-container">
-      <img src="images/logo.png" alt="GLOWUP logo" class="logo-img">
-      <span class="logo-text">GLOWUP</span>
-    </a>
-    <nav class="nav-menu">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="ourproducts.html" class="nav-link active">Our Products</a>
-      <a href="#" class="nav-link">About</a>
-      <a href="#" class="nav-link contact-link">Contact</a>
-    </nav>
-  </header>
+  <main class="wrapper">
 
-  <!-- אזור תמונות של מוצרי קוסמטיקה -->
-  <section class="products-images-section">
-    <div class="products-images-wrapper">
-      <img src="images/page2imag1.png" alt="Natural Glow Serum" class="product-image">
-      <img src="images/page2imag2.png" alt="Hydrating Face Cream" class="product-image">
-      <img src="images/page2imag3.png" alt="Refreshing Mist Spray" class="product-image">
-    </div>
-  </section>
+    <header>
+      <a href="index.html" class="logo-container">
+        <img src="images/logo.png" alt="GLOWUP logo" class="logo-img">
+        <span class="logo-text">GLOWUP</span>
+      </a>
+      <nav>
+        <ul>
+          <li class="curr-page"><a href="index.html">Home</a></li>
+          <li><a href="ourproducts.html">Our products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>      
+    </header>
 
-  <!-- אזור רשימת מוצרים -->
-  <section class="list-drinks-section">
-    <h2 class="list-title">Our Natural Collection</h2>
-    <div class="drink-item">
-      <div class="circle">
-        <img src="images/group.png" alt="Serum Icon" class="icon">
-      </div>
-      <span class="drink-text">Radiance Boost Serum</span>
-    </div>
-    <div class="drink-item">
-      <div class="circle">
-        <img src="images/group.png" alt="Cream Icon" class="icon">
-      </div>
-      <span class="drink-text">Deep Hydration Cream</span>
-    </div>
-    <div class="drink-item">
-      <div class="circle">
-        <img src="images/group.png" alt="Mist Icon" class="icon">
-      </div>
-      <span class="drink-text">Floral Mist Spray</span>
-    </div>
-    <div class="drink-item">
-      <div class="circle">
-        <img src="images/group.png" alt="Mask Icon" class="icon">
-      </div>
-      <span class="drink-text">Revitalizing Face Mask</span>
-    </div>
-  </section>
+    <main>
 
-  <!-- אזור הבחירה האישית -->
-  <section class="your-choice-section">
-    <h2 class="choice-title">Your Glow Choice</h2>
-    <img src="images/beforeandafter.png" alt="Before and After Results" class="choice-image">
-  </section>
+      <section class="products-images-section">
+        <figure class="products-images-wrapper">
+          <img src="images/page2imag1.png" alt="Natural Glow Serum" class="product-image first-image">
+          <img src="images/page2imag2.png" alt="Hydrating Face Cream" class="product-image middle-image">
+          <img src="images/page2imag3.png" alt="Refreshing Mist Spray" class="product-image last-image">
+        </figure>
+      </section>
 
-  <!-- Footer Section -->
+      <section class="list-drinks-section">
+        <h2 class="list-title">Our Natural Collection</h2>
+        <ul>
+          <li class="drink-item">
+            <span class="circle">
+              <img src="images/group.png" alt="Serum Icon" class="icon">
+            </span>
+            <span class="drink-text">Radiance Boost Serum</span>
+          </li>
+          <li class="drink-item">
+            <span class="circle">
+              <img src="images/group.png" alt="Cream Icon" class="icon">
+            </span>
+            <span class="drink-text">Deep Hydration Cream</span>
+          </li>
+          <li class="drink-item">
+            <span class="circle">
+              <img src="images/group.png" alt="Mist Icon" class="icon">
+            </span>
+            <span class="drink-text">Floral Mist Spray</span>
+          </li>
+          <li class="drink-item">
+            <span class="circle">
+              <img src="images/group.png" alt="Mask Icon" class="icon">
+            </span>
+            <span class="drink-text">Revitalizing Face Mask</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="your-choice-section">
+        <h2 class="choice-title">Your Glow Choice</h2>
+        <figure>
+          <img src="images/beforeandafter.png" alt="Before and After Results" class="choice-image">
+        </figure>
+      </section>
+
+    </main>
+
+  </main>
+
   <footer class="footer">
-    <div class="footer-container">
-      
-      <div class="footer-group">
+    <section class="footer-container">
+
+      <section class="footer-group">
         <h3 class="footer-title">WHO WE ARE</h3>
         <ul class="footer-links">
           <li><a href="#">About</a></li>
           <li><a href="#">Team</a></li>
           <li><a href="#">Work With Us</a></li>
         </ul>
-        <div class="footer-icons">
+        <section class="footer-icons">
           <a href="https://twitter.com" target="_blank">
             <img src="images/twitter.png" alt="Twitter" class="social-icon">
           </a>
@@ -88,20 +98,20 @@
           <a href="https://instagram.com" target="_blank">
             <img src="images/instagram.png" alt="Instagram" class="social-icon">
           </a>
-        </div>
+        </section>
         <p class="footer-copy">© 2025 GLOWUP</p>
-      </div>
+      </section>
 
-      <div class="footer-group">
+      <section class="footer-group">
         <h3 class="footer-title">FOLLOW US</h3>
         <ul class="footer-links">
           <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
           <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
           <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
         </ul>
-      </div>
+      </section>
 
-    </div>
+    </section>
   </footer>
 
 </body>
